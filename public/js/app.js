@@ -1,5 +1,3 @@
-console.log('client side javaScript Loadeed..');
-
 const form = document.querySelector('form');
 const paraLoading = document.getElementById('loading');
 
