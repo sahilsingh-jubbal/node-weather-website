@@ -7,7 +7,7 @@ form.addEventListener('submit', (e) => {
     const para = document.getElementById('para');
 
     paraLoading.innerText = 'Loading....';
-    fetch(`http://localhost:3000/weather?address=${inputText}`)
+    fetch(`/weather?address=${inputText}`)
         .then((res) => res.json())
         .then((data) => {
             if (data.error) {
